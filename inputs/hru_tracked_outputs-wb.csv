@@ -1,0 +1,7 @@
+f_varname,varname,units,file_name,unit
+Surface Runnof,surq_gen,mm,basin_wb_day.txt,-
+Lateral Flow,latq,m3/s,basin_wb_day.txt,-
+Evapotranspiration,et,mm,basin_wb_day.txt,-
+Percolation,perc,mm,basin_wb_day.txt,-
+Soil Water Change,sw_change,mm,basin_wb_day.txt,-
+Curve Number,cn,-,basin_wb_day.txt,-

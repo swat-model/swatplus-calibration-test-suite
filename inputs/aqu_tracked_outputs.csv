@@ -1,0 +1,8 @@
+f_varname,varname,units,file_name,unit
+Revap,revap,mm,basin_aqu_day.txt,-
+Depth to Water Table,dep_wt,mm,basin_aqu_day.txt,-
+Aquifer Storage,stor,mm,basin_aqu_day.txt,-
+Flow to Channel,flo_cha,mm,basin_aqu_day.txt,-
+Total Discharge,flo_out,mm,basin_sd_chamorph_day.txt,-
+Aquifer Flow,flo,mm,basin_aqu_day.txt,-
+Organic Nitrogen,orgn,kg/ha_P,basin_aqu_day.txt,-

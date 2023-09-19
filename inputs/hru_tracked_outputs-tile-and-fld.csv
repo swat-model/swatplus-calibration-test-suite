@@ -1,0 +1,8 @@
+f_varname,varname,units,file_name,unit
+Tile Flow,qtile,mm,hru_wb_mon.txt,55
+Water Yield,wateryld,mm,hru_wb_mon.txt,55
+Sediments,sed_in,tons,channel_sdmorph_day.txt,502
+Nitrates in Tile Flow,tileno3,kg N/ha,hru_ls_mon.txt,55
+Evapotranspiration,et,mm,hru_wb_mon.txt,55
+Percolation,perc,mm,hru_wb_mon.txt,55
+Soil Water Change,sw_change,mm,hru_wb_mon.txt,55

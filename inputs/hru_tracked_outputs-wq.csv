@@ -1,0 +1,9 @@
+f_varname,varname,units,file_name,unit
+Sediments,sed_in,tons,basin_sd_chamorph_day.txt,-
+Dissolved Oxygen Storage,dox_stor,kg,basin_sd_cha_day.txt,-
+Mineral Phosphorus,solp_in,kg P,basin_sd_cha_day.txt,-
+Organic Phosphorus,sedp_in,kg P,basin_sd_cha_day.txt,-
+Nitrate In,no3_in,kg N,basin_sd_cha_day.txt,-
+Amonia In,nh3_in,kg N,basin_sd_cha_day.txt,-
+Nitrite In,no2_in,kg N,basin_sd_cha_day.txt,-
+BOD in,cbod_in,kg,basin_sd_cha_day.txt,-

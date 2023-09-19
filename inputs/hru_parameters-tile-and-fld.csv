@@ -1,0 +1,12 @@
+ParName,absmin,absmax,Change_Type,Val1,Val2,Val3,Manual_File,Cols,SkipLines
+tile_lag,0,100,pctchg,-20,0,20,tiledrain.str,3,1
+field_len,0.01,2,pctchg,-20,0,20,field.fld,1,1
+field_wid,0.01,2,pctchg,-20,0,20,field.fld,2,1
+field_ang,0,360,pctchg,-20,0,20,field.fld,3,1
+tile_dep,0,2000,pctchg,-20,0,20,tiledrain.str,1,1
+tile_dtime,0,72,pctchg,-20,0,20,tiledrain.str,2,1
+tile_rad,3,40,pctchg,-20,0,20,tiledrain.str,4,1
+tile_dist,7600,30000,pctchg,-20,0,20,tiledrain.str,5,1
+tile_drain,10,51,pctchg,-20,0,20,tiledrain.str,6,1
+tile_pump,0,10,pctchg,-20,0,20,tiledrain.str,7,1
+tile_latk,0.01,4,pctchg,-20,0,20,tiledrain.str,8,1

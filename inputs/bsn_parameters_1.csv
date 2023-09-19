@@ -1,0 +1,10 @@
+ParName,absmin,absmax,Change_Type,Val1,Val2,Val3,Manual_File,Cols,SkipLines
+msk_co2,0,10,absval,0,5,9.5,parameters.bsn,17,1
+msk_x,0,0.3,absval,0,0.2,0.285,parameters.bsn,18,1
+trnsrch,0,1,absval,0,0.5,0.95,parameters.bsn,19,1
+cdn,0,3,absval,0,1.5,2.85,parameters.bsn,22,1
+tb_adj,0,1,absval,0,0.5,0.95,parameters.bsn,25,1
+sdnco,0.001,1.3,absval,0.0011,0.6505,1.235,parameters.bsn,23,1
+n_updis,0,100,absval,0,50,95,parameters.bsn,8,1
+p_updis,0,100,absval,0,50,95,parameters.bsn,9,1
+dorm_hr,0,24,absval,0,12,22.8,parameters.bsn,27,1

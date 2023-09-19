@@ -1,0 +1,10 @@
+f_varname,varname,units,file_name,unit
+Evapotranspiration,et,mm,basin_wb_day.txt,-
+Initial Soil Water,sw_init,mm,basin_wb_day.txt,-
+Surface Runoff,surq_gen,mm,basin_wb_day.txt,-
+Sediments,sed_out,tons,basin_sd_chamorph_day.txt,-
+Nitrogen Uptake,nuptake,kgha,basin_nb_day.txt,-
+Phosphorus Uptake,puptake,kgha,basin_nb_day.txt,-
+Nitrates to Channel,no3_in,kgN,basin_sd_cha_day.txt,-
+Phosphorus to Channel,solp_in,kgN,basin_sd_cha_day.txt,-
+Leaf Area Index,lai,m2/m2,basin_pw_day.txt,-

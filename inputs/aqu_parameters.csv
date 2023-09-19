@@ -1,0 +1,6 @@
+ParName,absmin,absmax,Change_Type,Val1,Val2,Val3,Manual_File,Cols,SkipLines
+alpha,0,1,absval,0,0.5,1,aquifer.aqu,11,1
+bf_max,0,2,absval,0,1,2,aquifer.aqu,10,1
+flo_min,0,5000,absval,0,2000,4500,aquifer.aqu,16,1
+revap_co,0.02,0.2,absval,0.02,0.1,0.2,aquifer.aqu,12,1
+revap_min,0,500,absval,0,250,500,aquifer.aqu,17,1

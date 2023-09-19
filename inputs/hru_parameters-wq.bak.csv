@@ -1,0 +1,8 @@
+ParName,absmin,absmax,Change_Type,Val1,Val2,Val3,Manual_File,Cols,SkipLines
+usle_p,0,1,absval,0.4,0.6,0.8,cons_practice.lum,1,1
+lat_sed,0,5000,absval,0,2500,4000,hydrology.hyd,2,1
+erorgn,0,5,absval,0,2,5,hydrology.hyd,6,1
+erorgp,0,5,absval,0,2,5,hydrology.hyd,7,1
+biomix,0,1,absval,0.4,0.6,0.8,hydrology.hyd,9,1
+lat_orgn,0,200,absval,0,70,150,hydrology.hyd,11,1
+lat_orgp,0,200,absval,0,70,150,hydrology.hyd,12,1
