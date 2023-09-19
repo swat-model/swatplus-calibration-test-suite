@@ -1,0 +1,4 @@
+calibration.cal: written by SWAT+ Toolbox api v1.0.1
+1
+cal_parm               chg_typ       chg_val     conds  soil_lyr1  soil_lyr2       yr1       yr2      day1      day2   obj_tot
+{parname}  {chg_type}  {value}         0          0          0         0         0         0         0         0      
