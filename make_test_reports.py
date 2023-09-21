@@ -14,7 +14,7 @@ Date    : 2023-05-23
 
 # imports
 from cjfx import *
-from modules import hru_tests, summary_plot
+from modules import samples_runner, summary_plot
 
 ignore_warnings()
 
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     summary_fig_dir = create_path(f'./{out_dir}/summary-figures/')      # summary figures directory
     executable_path = "./executables/SWATPlus64_linux"                  # replace with your executable path
 
-    txtinout        = "./models/SAVE"                       # SWAT+ txtinout directory, you can add your own here
+    txtinout        = "./models/07020011_Lesueur"                       # SWAT+ txtinout directory, you can add your own here
 
     revision        = "Rev 60.5.7"
     rev_date        = "25/05/2023"
@@ -55,7 +55,7 @@ if __name__ == "__main__":
             change_types[row["ParName"]] = row["Change_Type"]
 
     for batch in batches:
-        dict_data, dict_data_nses = hru_tests.get_data(batch[1], txtinout, os.path.dirname(__file__), batch[2], os.path.abspath(executable_path))
+        dict_data, dict_data_nses = samples_runner.get_data(batch[1], txtinout, os.path.dirname(__file__), batch[2], os.path.abspath(executable_path))
         dict_data_archive.append(dict_data)
         dict_data_archive_nses.append(dict_data_nses)
         Done = summary_plot.make_plot(dict_data, f'{summary_fig_dir}/hru-{batch[0]}.png', ncols=7,)

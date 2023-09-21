@@ -73,6 +73,7 @@ def make_plot(dict_data, out_fn, ncols = 8, subplot_width = 2, subplot_height = 
     plt.tight_layout()
     # plt.show()
     plt.savefig(out_fn)
+    plt.close()
 
     return True
 

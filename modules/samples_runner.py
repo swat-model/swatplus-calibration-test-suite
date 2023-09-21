@@ -24,8 +24,8 @@ def get_data(parameter_list_file, input_txtinout, current_working_dir, tracked_f
     working_dir             = create_path('./output/model_runs/')
 
     src_txtinout_dir        = f"{os.path.dirname(parameter_list_file)}"
-    file_cio_fname          = f"/home/cjames/Workspace/SWAT+ Test Suite/inputs/file.cio"
-    print_prt_fname         = f"/home/cjames/Workspace/SWAT+ Test Suite/inputs/print.prt"
+    file_cio_fname          = f"./inputs/file.cio"
+    print_prt_fname         = f"./inputs/print.prt"
     calibration_fname       = f"{src_txtinout_dir}/calibration.cal"
     hru_tracked_outputs_fn  = tracked_fn
     
@@ -106,12 +106,12 @@ def get_data(parameter_list_file, input_txtinout, current_working_dir, tracked_f
                     # f"{dst_dir.split('_')[0]}_{'='.join(dst_dir.split('_')[1:])}"
                     diff_check_cols.append("{0}:{1}".format(f"{dst_dir.split('_')[0]}_{'='.join(dst_dir.split('_')[1:])}", c_type))
 
+                    # print(f"{working_dir}/{c_type}_{dst_dir}/{row_2.file_name}")
                     if isinstance(row_2.unit, int):
                         out_df = get_swat_timeseries(f"{working_dir}/{c_type}_{dst_dir}/{row_2.file_name}", col_name=row_2.varname, object_number=row_2.unit)
                     else:
                         out_df = get_swat_timeseries(f"{working_dir}/{c_type}_{dst_dir}/{row_2.file_name}", col_name=row_2.varname)
 
-                    # print(f"{working_dir}/{c_type}_{dst_dir}/{row_2.file_name}")
                     out_df.rename(columns={row_2.varname: "{0}:{1}".format(f"{dst_dir.split('_')[0]}_{'='.join(dst_dir.split('_')[1:])}", c_type)}, inplace=True)
                     
                     if evaluation_dfs[f"{row['ParName']}"][row_2.f_varname] is None:

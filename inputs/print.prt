@@ -30,7 +30,7 @@ lsunit_wb             n           n             n              y
 lsunit_nb             n           n             n              y
 lsunit_ls             n           n             n              y
 lsunit_pw             n           n             n              y
-hru_wb                n           y             n              y
+hru_wb                n           y             y              y
 hru_nb                n           n             n              y
 hru_ls                n           y             n              y
 hru_pw                n           n             n              y
